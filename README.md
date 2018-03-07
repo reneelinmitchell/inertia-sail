@@ -7,13 +7,13 @@
 This repository contains the code for our 2018 BHI / BSN Data Challenge submssion. Check out the challenge here: [MIMIC Challenge](https://mimic.physionet.org/events/bhibsn-challenge/)
 Feel free to clone or fork the repository and try out our analysis. Data is sourced from the excellent MIT MIMIC Critical Care Database.
 
-
+##### Ref:
 MIMIC-III, a freely accessible critical care database. Johnson AEW, Pollard TJ, Shen L, Lehman L, Feng M, Ghassemi M, Moody B, Szolovits P, Celi LA, and Mark RG. Scientific Data (2016). DOI: 10.1038/sdata.2016.35. Available from: http://www.nature.com/articles/sdata201635
 
 
 [MIMIC-III](https://mimic.physionet.org/)
 
-##### Running the Code
+### Running the Code
 
 1. Modify FLOW1 and FLOW2 to contain valid login info. 
 
@@ -33,7 +33,7 @@ schema = 'mimiciii'`
 
 3. Results are charted in FLOW3
 
-##### Dependencies:
+### Dependencies:
 
 * pandas
 * numpy
@@ -44,12 +44,12 @@ schema = 'mimiciii'`
 * matplotlib
 * pdvega 
 
-##### Notes:
+### Notes:
 
 * Notebooks should be run in numeric order as they produce output files used for subsequent notebooks.
 * FLOW1 and FLOW2 should be edited to contain login info for the database
 
-##### Files:
+### Files:
 
 1. FLOW1_GetICUStayAndCaregiverData 
     * Output: d_slices_5060_g.p, d_mro_5060_g.p
@@ -58,11 +58,11 @@ schema = 'mimiciii'`
 3. FLOW3_Stats
     * Output: Various interactive charts
 
-##### Future work:
+### Future work:
 
 [ ] Merge queries where possible to improve perf
 [ ] Parameterize age range file names and SQL queries
 
-##### Contact:
+### Contact:
 
 {rlm4mx,bg5ng}@virginia.edu, jgong@umbc.edu
