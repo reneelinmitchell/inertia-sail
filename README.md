@@ -1,7 +1,7 @@
 # BHI / BSN Data Challenge Submission
 
 ### Team INERTIA-SAIL
-#### Renne M.(1), Ben G.(1), and Jiaqi G.(2)
+#### Renee M.(1), Ben G.(1), and Jiaqi G.(2)
 #### 1: UVA, 2: UMBC
 
 This repository contains the code for our 2018 BHI / BSN Data Challenge submssion. Check out the challenge here: [MIMIC Challenge](https://mimic.physionet.org/events/bhibsn-challenge/)
