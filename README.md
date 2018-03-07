@@ -1,15 +1,15 @@
 # BHI / BSN Data Challenge Submission
 
 ### Team INERTIA-SAIL
-##### Renne M.(1), Ben G.(1), and Jiaqi G.(2)
-##### 1: UVA, 2: UMBC
+#### Renne M.(1), Ben G.(1), and Jiaqi G.(2)
+#### 1: UVA, 2: UMBC
 
 This repository contains the code for our 2018 BHI / BSN Data Challenge submssion. Check out the challenge here: [MIMIC Challenge](https://mimic.physionet.org/events/bhibsn-challenge/)
 
 
-Feel free to clone or fork the repository and try out our analysis. Code is available under the MIT License. Data is sourced from the excellent MIT MIMIC Critical Care Database.
+Feel free to clone or fork the repository and try out our analysis. Code is available under the MIT License. Data is sourced from the excellent *MIT MIMIC Critical Care Database*.
 
-##### Ref:
+#### Data Ref:
 MIMIC-III, a freely accessible critical care database. Johnson AEW, Pollard TJ, Shen L, Lehman L, Feng M, Ghassemi M, Moody B, Szolovits P, Celi LA, and Mark RG. Scientific Data (2016). DOI: 10.1038/sdata.2016.35. Available from: http://www.nature.com/articles/sdata201635
 
 
@@ -60,15 +60,17 @@ schema = 'mimiciii'`
 T License
 ### Future work:
 
-[ ] Merge queries where possible to improve perf
-[ ] Parameterize age range file names and SQL queries
+- [ ] Merge queries where possible to improve perf
+- [ ] Parameterize age range file names and SQL queries
 
 ### Contact:
 
 {rlm4mx,bg5ng}@virginia.edu, jgong@umbc.edu
 
 ### Copyright Info:
-This work is based upon example code from the [bhi-bsn-challenge](https://github.com/MIT-LCP/bhi-bsn-challenge) repo. That code, some of which was reproduced here is under the following license:
+This work is based upon example code from the [bhi-bsn-challenge](https://github.com/MIT-LCP/bhi-bsn-challenge) repo. That code, some of which was reproduced here, is under the following license:
+
+---------
 
 MIT License
 
