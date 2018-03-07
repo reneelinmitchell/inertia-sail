@@ -33,6 +33,8 @@ schema = 'mimiciii'`
 
 3. Results are charted in FLOW3
 
+4. Decision tree analysis takes place in the seperate FLOW4 MATLAB script
+
 ### Dependencies:
 
 * pandas
@@ -43,6 +45,8 @@ schema = 'mimiciii'`
 * scipy
 * matplotlib
 * pdvega 
+
+* MATLAB for decision tree
 
 ### Notes:
 
@@ -57,7 +61,10 @@ schema = 'mimiciii'`
     * Output: total_lab_tests_5050_g.p
 3. FLOW3_Stats
     * Output: Various interactive charts
-T License
+	* Output: mro_plus.xlsx
+4. FLOW4_decision_tree_analysis
+	* Output: Figures
+
 ### Future work:
 
 - [ ] Merge queries where possible to improve perf
@@ -66,6 +73,8 @@ T License
 ### Contact:
 
 {rlm4mx,bg5ng}@virginia.edu, jgong@umbc.edu
+
+[UMBC SAIL Group](https://sail.umbc.edu/)
 
 ### Copyright Info:
 This work is based upon example code from the [bhi-bsn-challenge](https://github.com/MIT-LCP/bhi-bsn-challenge) repo. That code, some of which was reproduced here, is under the following license:
