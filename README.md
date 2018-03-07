@@ -17,15 +17,13 @@ MIMIC-III, a freely accessible critical care database. Johnson AEW, Pollard TJ, 
 
 1. Modify FLOW1 and FLOW2 to contain valid login info. 
 
-`user = 'xxx'
-
+```
+user = 'xxx'
 password = 'xxx'
-
 host = 'hst953.csail.mit.edu'
-
 dbname = 'mimic'
-
 schema = 'mimiciii'`
+```
 
 `user` and `password` should be set.
 
