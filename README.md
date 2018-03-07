@@ -4,17 +4,27 @@
 ##### Renne M.(1), Ben G.(1), and Jiaqi G.(2)
 ##### 1: UVA, 2: UMBC
 
-This repository contains the code for our 2018 BHI / BSN Data Challenge submssion.
-Feel free to clone or fork the repository and try out our analysis. Data is sourced from the excellent MIT 
+This repository contains the code for our 2018 BHI / BSN Data Challenge submssion. Check out the challenge here: [MIMIC Challenge](https://mimic.physionet.org/events/bhibsn-challenge/)
+Feel free to clone or fork the repository and try out our analysis. Data is sourced from the excellent MIT MIMIC Critical Care Database.
+
+
+MIMIC-III, a freely accessible critical care database. Johnson AEW, Pollard TJ, Shen L, Lehman L, Feng M, Ghassemi M, Moody B, Szolovits P, Celi LA, and Mark RG. Scientific Data (2016). DOI: 10.1038/sdata.2016.35. Available from: http://www.nature.com/articles/sdata201635
+
+
+[MIMIC-III](https://mimic.physionet.org/)
 
 ##### Running the Code
 
 1. Modify FLOW1 and FLOW2 to contain valid login info. 
 
 `user = 'xxx'
+
 password = 'xxx'
+
 host = 'hst953.csail.mit.edu'
+
 dbname = 'mimic'
+
 schema = 'mimiciii'`
 
 `user` and `password` should be set.
@@ -56,4 +66,3 @@ schema = 'mimiciii'`
 ##### Contact:
 
 {rlm4mx,bg5ng}@virginia.edu, jgong@umbc.edu
-=======
